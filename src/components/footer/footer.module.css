@@ -1,3 +1,4 @@
 .icon {
-  @apply opacity-60;
+  @apply opacity-60 cursor-pointer;
+
 }
