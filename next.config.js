@@ -8,6 +8,15 @@ const nextConfig = {
       },
     ],
   },
+  async redirects() {
+    return [
+      {
+        source: "/api/:path",
+        destination: "http://localhost:3000",
+        permanent: true,
+      },
+    ];
+  },
 };
 
 module.exports = nextConfig;

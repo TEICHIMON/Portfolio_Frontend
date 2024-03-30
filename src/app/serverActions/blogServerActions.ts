@@ -29,7 +29,6 @@ export async function postData(
     await connect();
     const post = new Post(postDataObj);
     let result = await post.save();
-    console.log(result);
     return post;
   } catch (error) {
     throw new Error("Connection failed!");
