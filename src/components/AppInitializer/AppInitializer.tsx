@@ -20,8 +20,6 @@ export default function AppInitializer({
         url: "profile",
       })
       .then((res) => {
-        console.log("appinitail");
-
         if (res === "success") {
           setIsAuthenticated(true);
         } else {

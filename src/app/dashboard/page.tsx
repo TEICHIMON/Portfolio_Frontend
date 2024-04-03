@@ -33,9 +33,6 @@ const Dashboard: React.FC = () => {
 
   useLayoutEffect(() => {
     const fetchState = async () => {
-      console.log(
-        "trigger useEffect in dashboard",
-      );
       let { isAuthenticated, user } =
         await useAuthStore.getState();
       if (!isAuthenticated) {
@@ -64,7 +61,6 @@ const Dashboard: React.FC = () => {
         setIsLoading(false);
       }
     };
-    console.log(user, "user");
     if (user) {
       fetchData();
     }
@@ -100,8 +96,6 @@ const Dashboard: React.FC = () => {
         },
       );
 
-      console.log(result, "result");
-
       const response =
         await baseService.get<Post[]>(`/posts`);
       setData(response);
@@ -116,7 +110,6 @@ const Dashboard: React.FC = () => {
       let result = await baseService.delete(
         `/posts/delete/${id}`,
       );
-      console.log(result, "result in delete");
       const response =
         await baseService.get<Post[]>(`/posts`);
       setData(response);
@@ -126,10 +119,8 @@ const Dashboard: React.FC = () => {
   };
 
   if (isLoading) {
-    console.log("loading");
     return null; // 或者显示加载状态
   } else if (!isLoading && isAuthenticated) {
-    console.log("show content");
     return (
       <div className={styles.container}>
         {user?.role !== "admin" && (

@@ -34,7 +34,6 @@ const Login = () => {
   useLayoutEffect(() => {
     setError(params.get("error") || "");
     setSuccess(params.get("success") || "");
-    console.log(isAuthenticated, "login");
     if (isAuthenticated) {
       router.push("/dashboard");
     }
@@ -63,7 +62,6 @@ const Login = () => {
         password,
       })
       .then((res) => {
-        console.log(res, "res in login");
         setIsLoading(false);
         setUser({ email: res.email });
         Cookies.set("token", res.access_token);

@@ -25,7 +25,6 @@ async function getData(): Promise<Post[]> {
 
 const Blog = async () => {
   const data = await getData();
-  console.log(data, "data in blog");
 
   return (
     <div className={styles.mainContainer}>

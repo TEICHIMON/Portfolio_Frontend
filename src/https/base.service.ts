@@ -103,7 +103,6 @@ const baseService: BaseService = {
     data?: any,
     config?: AxiosRequestConfig,
   ): Promise<T> => {
-    console.log("execute delete");
     return instance
       .delete<T>(url, config)
       .then((response) => response.data)
