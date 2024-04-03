@@ -24,6 +24,7 @@ interface BaseService {
   ): Promise<T>;
   delete<T>(
     url: string,
+    data?: any,
     config?: AxiosRequestConfig,
   ): Promise<T>;
   patch<T>(
@@ -52,6 +53,7 @@ requestInterceptors.forEach((item) => {
 const handleError = (
   error: AxiosError,
 ): Promise<never> => {
+  console.error(error);
   if (axios.isCancel(error)) {
     // 请求被取消的错误处理
     return Promise.reject(
@@ -98,8 +100,10 @@ const baseService: BaseService = {
 
   delete: <T>(
     url: string,
+    data?: any,
     config?: AxiosRequestConfig,
   ): Promise<T> => {
+    console.log("execute delete");
     return instance
       .delete<T>(url, config)
       .then((response) => response.data)

@@ -5,7 +5,9 @@ import Image from "next/image";
 const Footer = () => {
   return (
     <div className="h-12 text-sm flex items-center justify-between">
-      <div>©2023 Lamamia. All rights reserved.</div>
+      <div>
+        ©2023 Sudami. All rights reserved.
+      </div>
       <div className="flex items-center gap-2.5">
         <Image
           src="/1.png"

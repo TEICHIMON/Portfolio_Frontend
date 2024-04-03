@@ -2,6 +2,7 @@
 import React, {
   FormEvent,
   useEffect,
+  useLayoutEffect,
   useState,
 } from "react";
 import styles from "./page.module.css";
@@ -19,8 +20,8 @@ type resType = {
   email: string;
   status: "success" | "failure";
 };
-const Login = ({ url }: { url: string }) => {
-  const { user, isAuthenticated, setUser } =
+const Login = () => {
+  const { setUser, isAuthenticated } =
     useAuthStore();
   const router = useRouter();
 
@@ -29,12 +30,14 @@ const Login = ({ url }: { url: string }) => {
   const params = useSearchParams();
   const [error, setError] = useState("");
   const [success, setSuccess] = useState("");
-  const [loginResponse, setLoginResponse] =
-    useState<resType | null>(null);
 
-  useEffect(() => {
+  useLayoutEffect(() => {
     setError(params.get("error") || "");
     setSuccess(params.get("success") || "");
+    console.log(isAuthenticated, "login");
+    if (isAuthenticated) {
+      router.push("/dashboard");
+    }
   }, [params]);
 
   if (isLoading) {
@@ -60,8 +63,8 @@ const Login = ({ url }: { url: string }) => {
         password,
       })
       .then((res) => {
+        console.log(res, "res in login");
         setIsLoading(false);
-        setLoginResponse(res);
         setUser({ email: res.email });
         Cookies.set("token", res.access_token);
         router.push("/dashboard");

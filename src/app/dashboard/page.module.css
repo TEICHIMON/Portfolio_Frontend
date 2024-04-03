@@ -12,16 +12,17 @@
   align-items: center;
   justify-content: space-between;
   margin: 50px 0px;
+  border-bottom: 2px solid;
 }
 
 .imgContainer {
   width: 200px;
-  height: 100px;
-  position: Ū;
+  height: auto;
 }
 
 .img {
-  object-fit: cover;
+  object-fit: contain;
+
 }
 
 .delete {
@@ -55,4 +56,23 @@
   border-radius: 5px;
   color: #eee;
   font-weight: bold;
+}
+
+
+.disabled {
+  opacity: 0.5;
+  pointer-events: none;
+}
+
+.input:disabled,
+.textArea:disabled {
+  background-color: #f0f0f0;
+  color: #888;
+  border-color: #ccc;
+}
+
+.button:disabled {
+  background-color: #ccc;
+  color: #888;
+  cursor: not-allowed;
 }
