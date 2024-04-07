@@ -66,6 +66,11 @@ const Login = () => {
         setUser({ email: res.email });
         Cookies.set("token", res.access_token);
         router.push("/dashboard");
+        if (res.email) {
+          setUser({ email: res.email });
+          Cookies.set("token", res.access_token);
+          router.push("/dashboard");
+        }
       });
   };
 

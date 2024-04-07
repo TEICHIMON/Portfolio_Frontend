@@ -4,8 +4,8 @@ import axios, {
   AxiosResponse,
   AxiosError,
 } from "axios";
-import base_config from "./config/base.config";
 import requestInterceptors from "./interceptors/request.interceptors";
+import base_config from "@/https/config/base.config";
 
 interface BaseService {
   get<T>(

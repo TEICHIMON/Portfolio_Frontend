@@ -2,20 +2,22 @@ import React from "react";
 import styles from "./page.module.css";
 import Image from "next/image";
 import { notFound } from "next/navigation";
+import baseConfig from "../../../https/config/base.config";
 
 async function getData(id) {
-  const res = await fetch(
-    `http://localhost:3000/api/posts/${id}`,
+  let res = await fetch(
+    `${baseConfig.baseURL}/posts/${id}`,
     {
       cache: "no-store",
     },
   );
+  res = await res.json();
 
-  if (!res.ok) {
+  if (!res.title) {
     return notFound();
   }
 
-  return res.json();
+  return res;
 }
 
 export async function generateMetadata({

@@ -2,7 +2,7 @@ import React from "react";
 import styles from "./page.module.css";
 import Link from "next/link";
 import Image from "next/image";
-import baseService from "@/https/base.service";
+import baseConfig from "@/https/config/base.config";
 
 interface Post {
   _id: string;
@@ -14,9 +14,14 @@ interface Post {
 
 async function getData(): Promise<Post[]> {
   try {
-    const response =
-      await baseService.get<Post[]>("/posts");
-    return response;
+    const response = await fetch(
+      `${baseConfig.baseURL}/posts`,
+      {
+        cache: "no-store",
+      },
+    );
+    const data = await response.json();
+    return data;
   } catch (error) {
     console.error("Error fetching data:", error);
     throw new Error("Failed to fetch data");
@@ -28,12 +33,12 @@ const Blog = async () => {
 
   return (
     <div className={styles.mainContainer}>
-      {data
+      {data && data.length > 0
         ? data.map((item) => (
             <Link
               href={`/blog/${item._id}`}
               className={styles.container}
-              key={item.id}
+              key={item._id}
             >
               <div
                 className={styles.imageContainer}

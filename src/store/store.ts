@@ -8,6 +8,7 @@ import {
 import zukeeper from "zukeeper";
 import axios from "axios";
 import baseService from "@/https/base.service";
+import Cookies from "js-cookie";
 
 export type AuthState = {
   user: User | null;
@@ -30,11 +31,13 @@ export const useAuthStore = create<AuthState>(
       setUser: (user: User) => {
         set({ user, isAuthenticated: true });
       },
-      clearUser: () =>
+      clearUser: () => {
+        Cookies.remove("token");
         set({
           user: null,
           isAuthenticated: false,
-        }),
+        });
+      },
       setIsAuthenticated: (
         authenticated: boolean,
       ) =>
