@@ -49,7 +49,7 @@ const Navbar = () => {
         href="/"
         className="font-bold text-2xl"
       >
-        lamamia
+        Sudami
       </Link>
       <div className="flex items-center gap-5">
         <DarkModeToggle />

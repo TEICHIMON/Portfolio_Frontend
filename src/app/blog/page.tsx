@@ -24,13 +24,12 @@ async function getData(): Promise<Post[]> {
     return data;
   } catch (error) {
     console.error("Error fetching data:", error);
-    throw new Error("Failed to fetch data");
+    return [];
   }
 }
 
 const Blog = async () => {
   const data = await getData();
-
   return (
     <div className={styles.mainContainer}>
       {data && data.length > 0

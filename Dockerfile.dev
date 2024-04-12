@@ -21,3 +21,5 @@ EXPOSE 8080
 
 # Run the command to start the Next.js application
 CMD ["yarn", "start"]
+# Use an official Node.js runtime as a parent image
+
