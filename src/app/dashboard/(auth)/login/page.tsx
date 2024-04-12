@@ -1,6 +1,7 @@
 "use client";
 import React, {
   FormEvent,
+  Suspense,
   useEffect,
   useLayoutEffect,
   useState,
@@ -20,7 +21,7 @@ type resType = {
   email: string;
   status: "success" | "failure";
 };
-const Login = () => {
+const LoginInner = () => {
   const { setUser, isAuthenticated } =
     useAuthStore();
   const router = useRouter();
@@ -63,9 +64,6 @@ const Login = () => {
       })
       .then((res) => {
         setIsLoading(false);
-        setUser({ email: res.email });
-        Cookies.set("token", res.access_token);
-        router.push("/dashboard");
         if (res.email) {
           setUser({ email: res.email });
           Cookies.set("token", res.access_token);
@@ -132,5 +130,11 @@ const Login = () => {
     </div>
   );
 };
-
+const Login = () => {
+  return (
+    <Suspense>
+      <LoginInner />
+    </Suspense>
+  );
+};
 export default Login;

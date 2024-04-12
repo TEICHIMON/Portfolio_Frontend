@@ -1,5 +1,5 @@
 const base_config_server = {
-  baseURL: "http://backend:3000/api",
+  baseURL: "http://localhost:3000/api",
   timeout: 5000,
   headers: {
     "Content-Type": "application/json",
@@ -7,7 +7,7 @@ const base_config_server = {
 };
 
 const base_config_client = {
-  baseURL: "http://localhost:3050/api",
+  baseURL: "http://localhost:3000/api",
   timeout: 5000,
   headers: {
     "Content-Type": "application/json",
