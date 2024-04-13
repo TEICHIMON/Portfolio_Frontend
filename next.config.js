@@ -8,15 +8,6 @@ const nextConfig = {
       },
     ],
   },
-  // async redirects() {
-  //   return [
-  //     {
-  //       source: "/api/:path",
-  //       destination: "http://backend:3050",
-  //       permanent: true,
-  //     },
-  //   ];
-  // },
 };
 
 module.exports = nextConfig;
