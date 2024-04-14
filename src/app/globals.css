@@ -28,22 +28,25 @@ a {
 .light {
   background-color: white;
   color: #111;
-  border-color: #111 ;
 }
 
 .dark {
   background-color: #111;
   color: #bbb;
-  border-color: #bbb ;
 }
 
 .container {
   max-width: 1366px;
   min-height: 100vh;
   margin: 0 auto;
-  padding: 0 60px;
+  padding: 0 20px; /* Reduce the padding for mobile */
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
 
+@media (min-width: 768px) {
+  .container {
+    padding: 0 60px; /* Restore the original padding for larger screens */
+  }
+}

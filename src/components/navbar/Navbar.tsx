@@ -2,7 +2,7 @@
 "use client";
 
 import Link from "next/link";
-import React from "react";
+import React, { useState } from "react";
 import DarkModeToggle from "../DarkModeToggle/DarkModeToggle";
 import { useAuthStore } from "@/store/store";
 
@@ -42,6 +42,12 @@ const links = [
 const Navbar = () => {
   const { user, isAuthenticated, clearUser } =
     useAuthStore();
+  const [isMobileMenuOpen, setMobileMenuOpen] =
+    useState(false);
+
+  const toggleMobileMenu = () => {
+    setMobileMenuOpen(!isMobileMenuOpen);
+  };
 
   return (
     <div className="h-24 flex justify-between items-center">
@@ -51,7 +57,7 @@ const Navbar = () => {
       >
         Sudami
       </Link>
-      <div className="flex items-center gap-5">
+      <div className="hidden md:flex items-center gap-5">
         <DarkModeToggle />
         {links.map((link) => (
           <Link key={link.id} href={link.url}>
@@ -67,6 +73,40 @@ const Navbar = () => {
           </button>
         )}
       </div>
+      <div className="md:hidden">
+        <button
+          className="px-2 py-1 border-none bg-[#53c28b] text-white cursor-pointer rounded"
+          onClick={toggleMobileMenu}
+        >
+          {isMobileMenuOpen ? "Close" : "Menu"}
+        </button>
+      </div>
+      {isMobileMenuOpen && (
+        <div className="md:hidden absolute top-24 right-0 bg-white dark:bg-gray-800 py-2 px-4 shadow-lg rounded">
+          <DarkModeToggle />
+          {links.map((link) => (
+            <Link
+              key={link.id}
+              href={link.url}
+              className="block py-2"
+              onClick={toggleMobileMenu}
+            >
+              {link.title}
+            </Link>
+          ))}
+          {isAuthenticated && (
+            <button
+              className="block w-full text-left py-2 border-none bg-[#53c28b] text-white cursor-pointer rounded"
+              onClick={() => {
+                clearUser();
+                toggleMobileMenu();
+              }}
+            >
+              Logout
+            </button>
+          )}
+        </div>
+      )}
     </div>
   );
 };

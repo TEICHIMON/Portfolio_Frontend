@@ -4,11 +4,11 @@ import Image from "next/image";
 
 const Footer = () => {
   return (
-    <div className="h-12 text-sm flex items-center justify-between">
+    <div className="py-4 px-6 text-sm flex flex-col md:flex-row items-center justify-between space-y-2 md:space-y-0">
       <div>
         ©2024 Sudami. All rights reserved.
       </div>
-      <div className="flex items-center gap-2.5">
+      <div className="flex items-center space-x-2">
         {/*<Image*/}
         {/*  src="/1.png"*/}
         {/*  width={15}*/}
