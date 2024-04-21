@@ -2,7 +2,6 @@ import React, {
   useEffect,
   useState,
 } from "react";
-import styles from "./Notification.module.css";
 
 interface NotificationProps {
   message: string;
@@ -33,17 +32,23 @@ const Notification: React.FC<
 
   return (
     <div
-      className={`${styles.notification} ${isVisible ? styles.visible : ""}`}
+      className={`fixed top-4 left-4 sm:top-8 sm:left-8 bg-red-500 text-white rounded-lg p-4 shadow-lg transition-all duration-300 ease-in-out z-50 ${
+        isVisible
+          ? "opacity-100 scale-100"
+          : "hidden"
+      }`}
     >
-      <div className={styles.message}>
-        {message}
+      <div className="flex items-center justify-between">
+        <div className="mr-4 text-lg font-bold">
+          {message}
+        </div>
+        <button
+          className="bg-transparent border-none cursor-pointer text-2xl text-white transition-colors duration-200 ease-in-out hover:text-red-200 focus:outline-none"
+          onClick={handleClose}
+        >
+          &times;
+        </button>
       </div>
-      <button
-        className={styles.closeButton}
-        onClick={handleClose}
-      >
-        &times;
-      </button>
     </div>
   );
 };

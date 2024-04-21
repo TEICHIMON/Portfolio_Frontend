@@ -9,16 +9,19 @@ import zukeeper from "zukeeper";
 import axios from "axios";
 import baseService from "@/https/base.service";
 import Cookies from "js-cookie";
+import { Locale } from "@/app/[lang]/dictionaries";
 
 export type AuthState = {
   user: User | null;
   isAuthenticated: boolean;
   role?: "admin" | "visitor";
+  lang: "en" | "ja";
   setUser: (user: User) => void;
   clearUser: () => void;
   setIsAuthenticated: (
     authenticated: boolean,
   ) => void;
+  setLang: (lang: Locale) => void;
   // getState: () => Promise<void>;
 };
 
@@ -28,6 +31,7 @@ export const useAuthStore = create<AuthState>(
     (set, get) => ({
       user: null,
       isAuthenticated: false,
+      lang: "en",
       setUser: (user: User) => {
         set({ user, isAuthenticated: true });
       },
@@ -55,6 +59,9 @@ export const useAuthStore = create<AuthState>(
         } else {
           set({ isAuthenticated: false });
         }
+      },
+      setLang: (lang: "en" | "ja") => {
+        set({ lang });
       },
     }),
     {

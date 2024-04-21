@@ -6,15 +6,22 @@ import {
 } from "@/store/store";
 import { useEffect } from "react";
 import baseService from "@/https/base.service";
+import { Locale } from "@/app/[lang]/dictionaries";
 
 export default function AppInitializer({
   children,
+  lang,
 }: {
   children: React.ReactNode;
+  lang: Locale;
 }) {
-  const { setIsAuthenticated } = useAuthStore();
+  const { setIsAuthenticated, setLang } =
+    useAuthStore();
 
   useEffect(() => {
+    if (lang) {
+      setLang(lang);
+    }
     baseService
       .get("profile", {
         url: "profile",

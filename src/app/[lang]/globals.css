@@ -1,0 +1,34 @@
+@import "../../components/footer/footer.module.css";
+
+@tailwind base;
+@tailwind components;
+.theme {
+  @apply transition-all duration-1000 ease-in-out;
+}
+.light {
+  @apply bg-white text-gray-900;
+}
+.dark {
+  @apply bg-gray-900 text-gray-400;
+}
+@tailwind utilities;
+
+@layer base {
+  html,
+  body {
+    @apply mx-auto overflow-x-hidden;
+  }
+
+  a {
+    @apply no-underline text-inherit;
+  }
+
+  @layer components {
+    .container {
+      @apply max-w-screen-2xl min-h-screen mx-auto px-4 md:px-20 lg:px-36 flex flex-col justify-between;
+    }
+
+
+
+  }
+}

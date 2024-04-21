@@ -1,0 +1,139 @@
+{
+  "Home": {
+    "hello": "こんにちは、私はZHIWENです。",
+    "description": "アイデアを現実のものにする。世界中のテック業界からチームを集めています。",
+    "button_text": "私たちの作品を見る"
+  },
+  "Navbar": {
+    "title": "ZHIWEN",
+    "home": "ホーム",
+    "portfolio": "ポートフォリオ",
+    "blog": "ブログ",
+    "about": "私たちについて",
+    "contact": "お問い合わせ",
+    "dashboard": "ダッシュボード",
+    "logout": "ログアウト",
+    "close": "閉じる",
+    "menu": "メニュー"
+  },
+  "Footer": {
+    "text": " ©2024 Sudami. All rights reserved."
+  },
+  "Portfolio": {
+    "title": "私たちの作品",
+    "chooseGallery": "ギャラリーを選択",
+    "illustrations": "イラスト",
+    "websites": "ウェブサイト",
+    "applications": "アプリケーション"
+  },
+  "applications": [
+    {
+      "id": 1,
+      "title": "クリエイティブ ポートフォリオ",
+      "desc": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur vel tenetur necessitatibus unde natus perspiciatis, amet cupiditate ducimus possimus, eaque ex autem id nobis eum dolorem. Neque eveniet fugiat tenetur?",
+      "image": "https://images.pexels.com/photos/3130810/pexels-photo-3130810.jpeg"
+    },
+    {
+      "id": 2,
+      "title": "ミニマルなシングルプロダクト",
+      "desc": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur vel tenetur necessitatibus unde natus perspiciatis, amet cupiditate ducimus possimus, eaque ex autem id nobis eum dolorem. Neque eveniet fugiat tenetur?",
+      "image": "https://images.pexels.com/photos/2103127/pexels-photo-2103127.jpeg"
+    },
+    {
+      "id": 3,
+      "title": "ストロング・トゥギャザー・チャリティ",
+      "desc": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur vel tenetur necessitatibus unde natus perspiciatis, amet cupiditate ducimus possimus, eaque ex autem id nobis eum dolorem. Neque eveniet fugiat tenetur?",
+      "image": "https://images.pexels.com/photos/2916450/pexels-photo-2916450.jpeg"
+    }
+  ],
+  "illustrations": [
+    {
+      "id": 1,
+      "title": "クリエイティブ ポートフォリオ",
+      "desc": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur vel tenetur necessitatibus unde natus perspiciatis, amet cupiditate ducimus possimus, eaque ex autem id nobis eum dolorem. Neque eveniet fugiat tenetur?",
+      "image": "https://images.pexels.com/photos/3130810/pexels-photo-3130810.jpeg"
+    },
+    {
+      "id": 2,
+      "title": "ミニマルなシングルプロダクト",
+      "desc": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur vel tenetur necessitatibus unde natus perspiciatis, amet cupiditate ducimus possimus, eaque ex autem id nobis eum dolorem. Neque eveniet fugiat tenetur?",
+      "image": "https://images.pexels.com/photos/2103127/pexels-photo-2103127.jpeg"
+    },
+    {
+      "id": 3,
+      "title": "ストロング・トゥギャザー・チャリティ",
+      "desc": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur vel tenetur necessitatibus unde natus perspiciatis, amet cupiditate ducimus possimus, eaque ex autem id nobis eum dolorem. Neque eveniet fugiat tenetur?",
+      "image": "https://images.pexels.com/photos/2916450/pexels-photo-2916450.jpeg"
+    }
+  ],
+  "websites": [
+    {
+      "id": 1,
+      "title": "クリエイティブ ポートフォリオ",
+      "desc": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur vel tenetur necessitatibus unde natus perspiciatis, amet cupiditate ducimus possimus, eaque ex autem id nobis eum dolorem. Neque eveniet fugiat tenetur?",
+      "image": "https://images.pexels.com/photos/3130810/pexels-photo-3130810.jpeg"
+    },
+    {
+      "id": 2,
+      "title": "ミニマルなシングルプロダクト",
+      "desc": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur vel tenetur necessitatibus unde natus perspiciatis, amet cupiditate ducimus possimus, eaque ex autem id nobis eum dolorem. Neque eveniet fugiat tenetur?",
+      "image": "https://images.pexels.com/photos/2103127/pexels-photo-2103127.jpeg"
+    },
+    {
+      "id": 3,
+      "title": "ストロング・トゥギャザー・チャリティ",
+      "desc": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur vel tenetur necessitatibus unde natus perspiciatis, amet cupiditate ducimus possimus, eaque ex autem id nobis eum dolorem. Neque eveniet fugiat tenetur?",
+      "image": "https://images.pexels.com/photos/2916450/pexels-photo-2916450.jpeg"
+    }
+  ],
+  "About": {
+    "digitalStorytellers": "デジタル・ストーリーテラー",
+    "handcraftingExperiences": "受賞歴のあるデジタル体験を手作りしています",
+    "whoAreWe": "私たちは誰？",
+    "whoAreWeDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus quae dolor, optio voluptatibus magnam iure esse tempora beatae. A suscipit eos. Animi quibusdam cum omnis officiis voluptatum quo ea eveniet? Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus quae dolor, optio voluptatibus magnam iure esse tempora beatae, a suscipit eos. Animi quibusdam cum omnis officiis voluptatum quo ea eveniet? Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus quae dolor, optio voluptatibus magnam iure esse tempora beatae, a suscipit eos. Animi quibusdam cum omnis officiis voluptatum quo ea eveniet?",
+    "whatWeDo": "私たちは何をするの？",
+    "whatWeDoDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus quae dolor, optio voluptatibus magnam iure esse tempora beatae, a suscipit eos. Animi quibusdam cum omnis officiis voluptatum quo ea eveniet? Lorem ipsum dolor sit amet consectetur adipisicing elit. - クリエイティブなイラスト - 動的なウェブサイト - 高速で便利 - モバイルアプリ",
+    "contactButton": "お問い合わせ"
+  },
+  "Contact": {
+    "title": "連絡を取り合う",
+    "name": "名前",
+    "email": "メールアドレス",
+    "github": "Github",
+    "linkedin": "Linkedin",
+    "portfolio": "ポートフォリオ ウェブサイト"
+  },
+  "Login": {
+    "loading": "読み込み中...",
+    "welcomeBack": "お帰りなさい",
+    "signInMessage": "ダッシュボードを見るにはサインインしてください。",
+    "email": "メールアドレス",
+    "password": "パスワード",
+    "login": "ログイン",
+    "or": "- または -",
+    "createNewAccount": "新しいアカウントを作成する"
+  },
+  "Register": {
+    "createAccount": "アカウントを作成する",
+    "signUpMessage": "ダッシュボードを見るにはサインアップしてください。",
+    "username": "ユーザー名",
+    "email": "メールアドレス",
+    "password": "パスワード",
+    "register": "登録",
+    "errorMessage": "何かがうまくいかなかった！",
+    "or": "- または -",
+    "loginExistingAccount": "既存のアカウントでログイン",
+    "accountCreated": "アカウントが作成されました",
+    "accountUsed": "アカウントは使用されています"
+  },
+  "Dashboard": {
+    "visitorMessage": "あなたは訪問者です。このページのコンテンツを編集または削除することはできません。",
+    "loading": "読み込み中...",
+    "addNewPost": "新しい投稿を追加",
+    "title": "タイトル",
+    "description": "説明",
+    "image": "画像",
+    "content": "コンテンツ",
+    "send": "送信"
+  }
+}

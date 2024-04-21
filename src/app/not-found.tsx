@@ -1,9 +1,6 @@
-import Link from "next/link";
+// page.tsx
+import { redirect } from "next/navigation";
 
 export default function NotFound() {
-  return (
-    <div>
-      <Link href="/">Return Home</Link>
-    </div>
-  );
+  redirect("/not-found");
 }

@@ -1,0 +1,139 @@
+{
+  "Home": {
+    "hello": "Hello, I am ZHIWEN.",
+    "description": "Turning your Idea into Reality. We bring together the teams from the global tech industry.",
+    "button_text": "See Our Works"
+  },
+  "Navbar": {
+    "title": "ZHIWEN",
+    "home": "Home",
+    "portfolio": "Portfolio",
+    "blog": "Blog",
+    "about": "About",
+    "contact": "Contact",
+    "dashboard": "Dashboard",
+    "logout": "Logout",
+    "close": "Close",
+    "menu": "Menu"
+  },
+  "Footer": {
+    "text": " ©2024 Sudami. All rights reserved."
+  },
+  "Portfolio": {
+    "title": "Our Works",
+    "chooseGallery": "Choose a gallery",
+    "illustrations": "Illustrations",
+    "websites": "Websites",
+    "applications": "Application"
+  },
+  "applications": [
+    {
+      "id": 1,
+      "title": "Creative Portfolio",
+      "desc": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur vel tenetur necessitatibus unde natus perspiciatis, amet cupiditate ducimus possimus, eaque ex autem id nobis eum dolorem. Neque eveniet fugiat tenetur?",
+      "image": "https://images.pexels.com/photos/3130810/pexels-photo-3130810.jpeg"
+    },
+    {
+      "id": 2,
+      "title": "Minimal Single Product",
+      "desc": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur vel tenetur necessitatibus unde natus perspiciatis, amet cupiditate ducimus possimus, eaque ex autem id nobis eum dolorem. Neque eveniet fugiat tenetur?",
+      "image": "https://images.pexels.com/photos/2103127/pexels-photo-2103127.jpeg"
+    },
+    {
+      "id": 3,
+      "title": "Strong Together Charity",
+      "desc": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur vel tenetur necessitatibus unde natus perspiciatis, amet cupiditate ducimus possimus, eaque ex autem id nobis eum dolorem. Neque eveniet fugiat tenetur?",
+      "image": "https://images.pexels.com/photos/2916450/pexels-photo-2916450.jpeg"
+    }
+  ],
+  "illustrations": [
+    {
+      "id": 1,
+      "title": "Creative Portfolio",
+      "desc": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur vel tenetur necessitatibus unde natus perspiciatis, amet cupiditate ducimus possimus, eaque ex autem id nobis eum dolorem. Neque eveniet fugiat tenetur?",
+      "image": "https://images.pexels.com/photos/3130810/pexels-photo-3130810.jpeg"
+    },
+    {
+      "id": 2,
+      "title": "Minimal Single Product",
+      "desc": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur vel tenetur necessitatibus unde natus perspiciatis, amet cupiditate ducimus possimus, eaque ex autem id nobis eum dolorem. Neque eveniet fugiat tenetur?",
+      "image": "https://images.pexels.com/photos/2103127/pexels-photo-2103127.jpeg"
+    },
+    {
+      "id": 3,
+      "title": "Strong Together Charity",
+      "desc": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur vel tenetur necessitatibus unde natus perspiciatis, amet cupiditate ducimus possimus, eaque ex autem id nobis eum dolorem. Neque eveniet fugiat tenetur?",
+      "image": "https://images.pexels.com/photos/2916450/pexels-photo-2916450.jpeg"
+    }
+  ],
+  "websites": [
+    {
+      "id": 1,
+      "title": "Creative Portfolio",
+      "desc": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur vel tenetur necessitatibus unde natus perspiciatis, amet cupiditate ducimus possimus, eaque ex autem id nobis eum dolorem. Neque eveniet fugiat tenetur?",
+      "image": "https://images.pexels.com/photos/3130810/pexels-photo-3130810.jpeg"
+    },
+    {
+      "id": 2,
+      "title": "Minimal Single Product",
+      "desc": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur vel tenetur necessitatibus unde natus perspiciatis, amet cupiditate ducimus possimus, eaque ex autem id nobis eum dolorem. Neque eveniet fugiat tenetur?",
+      "image": "https://images.pexels.com/photos/2103127/pexels-photo-2103127.jpeg"
+    },
+    {
+      "id": 3,
+      "title": "Strong Together Charity",
+      "desc": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur vel tenetur necessitatibus unde natus perspiciatis, amet cupiditate ducimus possimus, eaque ex autem id nobis eum dolorem. Neque eveniet fugiat tenetur?",
+      "image": "https://images.pexels.com/photos/2916450/pexels-photo-2916450.jpeg"
+    }
+  ],
+  "About": {
+    "digitalStorytellers": "Digital Storytellers",
+    "handcraftingExperiences": "Handcrafting award winning digital experiences",
+    "whoAreWe": "Who Are We?",
+    "whoAreWeDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus quae dolor, optio voluptatibus magnam iure esse tempora beatae. A suscipit eos. Animi quibusdam cum omnis officiis voluptatum quo ea eveniet? Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus quae dolor, optio voluptatibus magnam iure esse tempora beatae, a suscipit eos. Animi quibusdam cum omnis officiis voluptatum quo ea eveniet? Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus quae dolor, optio voluptatibus magnam iure esse tempora beatae, a suscipit eos. Animi quibusdam cum omnis officiis voluptatum quo ea eveniet?",
+    "whatWeDo": "What We Do?",
+    "whatWeDoDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus quae dolor, optio voluptatibus magnam iure esse tempora beatae, a suscipit eos. Animi quibusdam cum omnis officiis voluptatum quo ea eveniet? Lorem ipsum dolor sit amet consectetur adipisicing elit. - Creative Illustrations - Dynamic Websites - Fast and Handy - Mobile Apps",
+    "contactButton": "Contact"
+  },
+  "Contact": {
+    "title": "GET IN TOUCH",
+    "name": "Name",
+    "email": "Email",
+    "github": "Github",
+    "linkedin": "Linkedin",
+    "portfolio": "Portfolio Website"
+  },
+  "Login": {
+    "loading": "Loading...",
+    "welcomeBack": "Welcome Back",
+    "signInMessage": "Please sign in to see the dashboard.",
+    "email": "Email",
+    "password": "Password",
+    "login": "Login",
+    "or": "- OR -",
+    "createNewAccount": "Create new account"
+  },
+  "Register": {
+    "createAccount": "Create an Account",
+    "signUpMessage": "Please sign up to see the dashboard.",
+    "username": "Username",
+    "email": "Email",
+    "password": "Password",
+    "register": "Register",
+    "errorMessage": "Something went wrong!",
+    "or": "- OR -",
+    "loginExistingAccount": "Login with an existing account",
+    "accountCreated": "Account has been Created",
+    "accountUsed": "Account has been used"
+  },
+  "Dashboard": {
+    "visitorMessage": "You are a visitor. You cannot edit or delete any content on this page.",
+    "loading": "Loading...",
+    "addNewPost": "Add New Post",
+    "title": "Title",
+    "description": "Desc",
+    "image": "Image",
+    "content": "Content",
+    "send": "Send"
+  }
+}

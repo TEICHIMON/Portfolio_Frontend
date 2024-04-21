@@ -5,6 +5,7 @@ const base_config_server = {
     "Content-Type": "application/json",
   },
 };
+
 const isProduction =
   process.env.NODE_ENV === "production";
 const base_config_client = isProduction
