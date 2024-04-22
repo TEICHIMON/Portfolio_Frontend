@@ -44,24 +44,24 @@ const Contact = async ({
           </div>
           <div className="underline px-4 md:px-5 py-3 md:py-4 bg-transparent border-solid border-2 md:border-3 border-gray-400 text-gray-400 rounded-2xl md:rounded-xl text-lg md:text-xl font-bold focus:outline-none">
             <Link
-              href="https://github.com/xiaomisu"
+              href="https://github.com/TEICHIMON"
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-400 hover:text-gray-300 overflow-auto break-all"
             >
               {intl.github}
-              :https://github.com/xiaomisu
+              :https://github.com/TEICHIMON
             </Link>
             <br />
             <br />
             <Link
-              href="https://linkedin.com/in/zhiwen-zheng-652022221"
+              href="https://www.linkedin.com/in/zhiwen-zheng-9967a1304"
               target="_blank"
               rel="noopener noreferrer"
               className="underline text-gray-400 hover:text-gray-300 break-all"
             >
               {intl.linkedin}
-              :https://linkedin.com/in/zhiwen-zheng-652022221
+              :www.linkedin.com/in/zhiwen-zheng-9967a1304
             </Link>
             <br />
             <br />

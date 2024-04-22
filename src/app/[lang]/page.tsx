@@ -5,8 +5,6 @@ import Button from "@/components/Button/Button";
 import {
   Locale,
   getDictionary,
-  PageType,
-  Page,
 } from "./dictionaries";
 import { notFound } from "next/navigation";
 export type LocaleProps = {
@@ -17,7 +15,7 @@ export type LocaleProps = {
 
 const paramsArray = ["en", "ja"];
 export async function generateStaticParams() {
-  return paramsArray;
+  return [{ lang: "en" }, { lang: "ja" }];
 }
 
 export default async function Home({
@@ -31,7 +29,7 @@ export default async function Home({
 
   return (
     <div className="flex flex-col md:flex-row items-center md:space-x-24 space-y-12 md:space-y-0">
-      <div className="flex-1 flex flex-col space-y-12">
+      <div className="flex-1 w-full flex flex-col space-y-12">
         <h1
           className="text-4xl md:text-7xl font-bold leading-tight"
           style={{
@@ -47,7 +45,7 @@ export default async function Home({
           {intl.description}
         </p>
         <Button
-          url="/portfolio"
+          url={`/${lang}/portfolio`}
           text={intl.button_text}
         />
       </div>

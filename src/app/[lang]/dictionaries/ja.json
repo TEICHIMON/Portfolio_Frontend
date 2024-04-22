@@ -1,15 +1,15 @@
 {
   "Home": {
     "hello": "こんにちは、私はZHIWENです。",
-    "description": "アイデアを現実のものにする。世界中のテック業界からチームを集めています。",
-    "button_text": "私たちの作品を見る"
+    "description": "2年以上の経験を持つフルスタック開発者です。インタラクティブでスケーラブルなWebアプリケーションの開発を得意としています。パフォーマンス最適化、UX向上、革新的なソリューションによる効率化に長けています。コンバージョン率の向上、アップデートの合理化、ワークロードの削減など、実績多数。専門知識を活かし、チャレンジングなプロジェクトに取り組み、最先端のソリューションを提供します。",
+    "button_text": "私の作品を見る"
   },
   "Navbar": {
     "title": "ZHIWEN",
     "home": "ホーム",
     "portfolio": "ポートフォリオ",
     "blog": "ブログ",
-    "about": "私たちについて",
+    "about": "私について",
     "contact": "お問い合わせ",
     "dashboard": "ダッシュボード",
     "logout": "ログアウト",
@@ -17,123 +17,162 @@
     "menu": "メニュー"
   },
   "Footer": {
-    "text": " ©2024 Sudami. All rights reserved."
+    "text": "©2024 ZHIWEN. All rights reserved."
   },
   "Portfolio": {
-    "title": "私たちの作品",
+    "title": "私の作品",
     "chooseGallery": "ギャラリーを選択",
-    "illustrations": "イラスト",
-    "websites": "ウェブサイト",
-    "applications": "アプリケーション"
+    "illustrations": "職務経歴",
+    "websites": "プロジェクト",
+    "applications": "スキル"
   },
-  "applications": [
-    {
-      "id": 1,
-      "title": "クリエイティブ ポートフォリオ",
-      "desc": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur vel tenetur necessitatibus unde natus perspiciatis, amet cupiditate ducimus possimus, eaque ex autem id nobis eum dolorem. Neque eveniet fugiat tenetur?",
-      "image": "https://images.pexels.com/photos/3130810/pexels-photo-3130810.jpeg"
-    },
-    {
-      "id": 2,
-      "title": "ミニマルなシングルプロダクト",
-      "desc": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur vel tenetur necessitatibus unde natus perspiciatis, amet cupiditate ducimus possimus, eaque ex autem id nobis eum dolorem. Neque eveniet fugiat tenetur?",
-      "image": "https://images.pexels.com/photos/2103127/pexels-photo-2103127.jpeg"
-    },
-    {
-      "id": 3,
-      "title": "ストロング・トゥギャザー・チャリティ",
-      "desc": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur vel tenetur necessitatibus unde natus perspiciatis, amet cupiditate ducimus possimus, eaque ex autem id nobis eum dolorem. Neque eveniet fugiat tenetur?",
-      "image": "https://images.pexels.com/photos/2916450/pexels-photo-2916450.jpeg"
-    }
-  ],
   "illustrations": [
     {
       "id": 1,
-      "title": "クリエイティブ ポートフォリオ",
-      "desc": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur vel tenetur necessitatibus unde natus perspiciatis, amet cupiditate ducimus possimus, eaque ex autem id nobis eum dolorem. Neque eveniet fugiat tenetur?",
-      "image": "https://images.pexels.com/photos/3130810/pexels-photo-3130810.jpeg"
+      "title": "ゲームウェブサイトの最適化（コード分割とSSR）",
+      "desc": "●\tパッケージ分割によりWebプロジェクトのファイルサイズを最適化し、デバイスごとのダウンロードサイズを50％削減、Webページの読み込み速度を40％向上。パッケージング時に必要なフォントのみを含むフォントパッケージを自動生成することで、フォントパッケージサイズをさらに90％削減。gzipを利用して圧縮。\n●\tWebプロジェクトをクライアントサイドレンダリング（CSR）からサーバーサイドレンダリング（SSR）に移行し、SEOを改善し、初期ページコンテンツの読み込み速度を50％向上。",
+      "image": "https://images.pexels.com/photos/2916450/pexels-photo-2916450.jpeg"
     },
     {
       "id": 2,
-      "title": "ミニマルなシングルプロダクト",
-      "desc": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur vel tenetur necessitatibus unde natus perspiciatis, amet cupiditate ducimus possimus, eaque ex autem id nobis eum dolorem. Neque eveniet fugiat tenetur?",
-      "image": "https://images.pexels.com/photos/2103127/pexels-photo-2103127.jpeg"
+      "title": "テンプレート駆動型キャンペーンページジェネレーター",
+      "desc": "●\tテンプレートアップロードシステムを導入し、新しいアクティビティページの立ち上げプロセスを合理化。ウェブサイトのアクティビティ更新効率を80％向上。\n●\tコンテンツチームがゲームイベントページを直接編集、プレビュー、アップロードできるツールを作成し、全体のプロセスを最適化し、作業負荷を50％削減。"
     },
     {
       "id": 3,
-      "title": "ストロング・トゥギャザー・チャリティ",
-      "desc": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur vel tenetur necessitatibus unde natus perspiciatis, amet cupiditate ducimus possimus, eaque ex autem id nobis eum dolorem. Neque eveniet fugiat tenetur?",
-      "image": "https://images.pexels.com/photos/2916450/pexels-photo-2916450.jpeg"
+      "title": "ゲームウェブサイトトラッキングシステム",
+      "desc": "●\tユーザー行動データを取得するためのウェブサイトトラッキングシステムを設計・開発。ユーザーペルソナとウェブサイトデータを分析し、サイトを最適化した結果、Webプロモーションキャンペーンのコンバージョン率が25％向上。"
+    },
+    {
+      "id": 4,
+      "title": "インターン、プロモーションWebページの開発",
+      "desc": "●\t自社製品のプロモーションWebページをゼロから設計・開発し、サーバーにデプロイ。発売前の最終週に1万PVを達成し、会社の売上を10％向上に貢献。"
+
     }
   ],
   "websites": [
     {
       "id": 1,
-      "title": "クリエイティブ ポートフォリオ",
-      "desc": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur vel tenetur necessitatibus unde natus perspiciatis, amet cupiditate ducimus possimus, eaque ex autem id nobis eum dolorem. Neque eveniet fugiat tenetur?",
+      "title": "パーソナルポートフォリオプロジェクト",
+      "desc": "●\tNext.js 14の最新バージョンをフロントエンドフレームワークとして使用し、パーソナルポートフォリオウェブサイトを開発。React Server ComponentsやNext.js Server Actionsなど、Next.jsとReactの多くの新機能を適用し、開発プロセスを簡素化し、開発効率を最適化。\n●\tNext.jsのSSRとSSG機能を活用し、ウェブサイトの読み込み速度とSEOを最適化。ファーストスクリーンの読み込み速度を改善し、多言語サポートを実装して、様々な国の人々が便利に閲覧できるようにした。\n●\tNest.jsをバックエンドフレームワークとして使用し、ユーザー登録、ログインなどのフロントエンド機能に安全な認証サービスを提供。Nest.jsでデータベース接続のセキュリティを確保しながら、Next.jsでデータを検証。\n●\tDockerとDocker Composeを使用してデプロイし、ローカルとサーバー間の環境の違いによる問題を回避。\n●\tDocker イメージをECRにデプロイし、ウェブサイトアプリケーションをEC2にデプロイ。AWS Cloudの機能を活用し、開発体験を最適化。",
       "image": "https://images.pexels.com/photos/3130810/pexels-photo-3130810.jpeg"
     },
     {
       "id": 2,
-      "title": "ミニマルなシングルプロダクト",
-      "desc": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur vel tenetur necessitatibus unde natus perspiciatis, amet cupiditate ducimus possimus, eaque ex autem id nobis eum dolorem. Neque eveniet fugiat tenetur?",
+      "title": "ゲームウェブサイトの最適化（コード分割とSSR）",
+      "desc": "•\tゲームの公式サイトを最適化し、パフォーマンスとユーザーエクスペリエンスを向上。\n•\tコンポーネントファイルを再構築し、モバイルとPCのコンポーネントを別々のディレクトリに分離して、コードの構成と保守性を向上。\n•\tViteのimport.meta.glob関数を利用して、モバイルとPCのディレクトリからコンポーネントを動的にインポートし、実行時にコンポーネントをオンデマンドで読み込めるようにした。\n•\tVue Routerの設定でルートとコンポーネントを動的に追加し、各ページに必要なコンポーネントのみが読み込まれるようにした。\n•\t不要なコードの読み込みとネットワーク転送を削減することで、ウェブサイトのパフォーマンスを大幅に向上させ、ページの読み込み速度を向上させ、ユーザーエクスペリエンスを改善。"
+    },
+    {
+
+      "id": 3,
+      "title": "テンプレート駆動型キャンペーンページジェネレータープロジェクト",
+      "desc": "•\t休日やゲーム内イベントに合わせて、ゲームの公式サイト用の様々なマーケティングアクティビティページを設計・開発。アクティビティの内容、リチャージ割引、入手可能なゲームプロップなどを紹介。\n•\t設定ベースのソリューションを実装し、運用チームが開発チームを毎回関与させることなく、アクティビティページのコンテンツを独自に管理できるようにした。\n•\tReactを使用して運用設定のバックエンドを開発し、運用チームが設定情報を入力・修正するためのユーザーフレンドリーなインターフェースを提供。\n•\t設定ファイルを自動生成し、AWS S3にアップロード。公式サイトのフロントエンドは定期的にS3から最新の設定ファイルを取得し、設定に基づいてアクティビティページを動的にレンダリング。"
+    },
+    {
+      "id": 4,
+      "title": "ウェブサイト監視プロジェクト",
+      "desc": "•\tゲームの公式サイトを最適化し、パフォーマンスとユーザーエクスペリエンスを向上。\n•\tコンポーネントファイルを再構築し、モバイルとPCのコンポーネントを別々のディレクトリに分離して、コードの構成と保守性を向上。\n•\tViteのimport.meta.glob関数を利用して、モバイルとPCのディレクトリからコンポーネントを動的にインポートし、実行時にコンポーネントをオンデマンドで読み込めるようにした。\n•\tVue Routerの設定でルートとコンポーネントを動的に追加し、各ページに必要なコンポーネントのみが読み込まれるようにした。\n•\t不要なコードの読み込みとネットワーク転送を削減することで、ウェブサイトのパフォーマンスを大幅に向上させ、ページの読み込み速度を向上させ、ユーザーエクスペリエンスを改善。\n•\t会社のゲーム公式サイトの包括的なトラッキングシステムをプロジェクトリーダーとして設計・開発。プレイヤーの行動とフィードバックに関する洞察を得るための堅牢なデータ収集ソリューションの緊急性に対応し、製品設計と運用戦略の最適化に役立てた。\n•\tマーケティング部門と積極的にコミュニケーションを取り、ユーザーのナビゲーションパス、クリック率、滞在時間、各種プロモーションチャネルからのトラフィックとコンバージョン率など、核となるデータ要件を特定。\n•\tフロントエンドにユニバーサルなトラック関数をカプセル化し、Blob、sendBeacon API、Image objectのフォールバックを使ってブラウザの互換性を考慮しながら、すべてのトラッキングポイントのデータ収集とレポートロジックを処理。イベントやプロパティの追加に高い拡張性と柔軟性を確保。\n•\tユーザーID、セッションID、イベントタイプ、タイムスタンプ、デバイス情報など、複数のディメンジョンを組み込んだデータモデルを設計。マーケティング、運用、製品チームの分析ニーズをサポートし、新規ユーザーの行動を把握するためのユニークなフィールドを用意。\n•\tExpressフレームワークを使用してバックエンドにデータ受信サービスを構築。環境情報を補完し、BigQuery APIを介してデータをデータウェアハウスに保存。データのクリーニングと正規化を行い、データ品質を向上。\n•\tトラッキングシステムの安定稼働を実現し、データ分析と運用最適化の取り組みを効果的にサポート。マーケティング部門による広告戦略の最適化と、プロダクトマネージャーによるゲーム体験の向上点の特定と実装を可能にした。\n•\tフロントエンドとバックエンドの開発スキルを強化し、エンドツーエンドのデータ収集と分析の経験を積み、技術ソリューションを設計する上でビジネス指向の視点を養い、オールラウンドなエンジニアとしての成長を遂げた。"
+    }
+  ],
+
+  "applications": [
+    {
+      "id": 1,
+      "title": "プログラミング言語:",
+      "desc": "1.\tJavaScript\n2.\tTypeScript\n3.\tHTML\n4.\tCSS\n5.\tJava",
       "image": "https://images.pexels.com/photos/2103127/pexels-photo-2103127.jpeg"
     },
     {
+      "id": 2,
+      "title": "フロントエンドフレームワークとライブラリ:",
+      "desc": "1.\tNext.js\n2.\tReact\n3.\tVue.js"
+    },
+    {
       "id": 3,
-      "title": "ストロング・トゥギャザー・チャリティ",
-      "desc": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur vel tenetur necessitatibus unde natus perspiciatis, amet cupiditate ducimus possimus, eaque ex autem id nobis eum dolorem. Neque eveniet fugiat tenetur?",
-      "image": "https://images.pexels.com/photos/2916450/pexels-photo-2916450.jpeg"
+      "title": "バックエンドフレームワークとライブラリ:",
+      "desc": "1.\tExpress.js\n2.\tNest.js\n3.\tNode.js"
+    },
+    {
+      "id": 4,
+      "title": "データベース:",
+      "desc": "1.\tMySQL\n2.\tMongoDB\n3.\tBigQuery"
+    },
+
+    {
+      "id": 5,
+      "title": "DevOpsとデプロイメント:",
+      "desc": "1.\tDocker\n2.\tDocker Compose\n3.\tAWS (Amazon Web Services)"
+    },
+
+    {
+      "id": 6,
+      "title": "Web開発技術:",
+      "desc": "1.\tサーバーサイドレンダリング（SSR）\n2.\t静的サイトジェネレーション（SSG）\n3.\tクライアントサイドレンダリング（CSR）\n4.\tパッケージ分割\n5.\tコード最適化\n6.\tパフォーマンス最適化\n7.\tSEO最適化\n8.\t多言語サポート\n9.\tレスポンシブWebデザイン"},
+    {
+      "id": 7,
+      "title": "プロジェクト管理とコラボレーション:",
+      "desc": "1.\tプロジェクトリーダーシップ\n2.\t機能横断型チームでのコラボレーション\n3.\t要件収集\n4.\tソリューション設計\n5.\tアジャイル開発手法"
+    },
+    {
+      "id": 8,
+      "title": "問題解決と分析スキル:",
+      "desc": "1.\tデバッグ\n2.\tトラブルシューティング\n3.\tパフォーマンス分析\n4.\tコード最適化\n5.\t細部への注意"
+    },
+    {
+      "id": 9,
+      "title": "その他のスキル:",
+      "desc": "1.\tGit\n2.\tUI/UXデザイン\n3.\tブラウザ互換性\n4.\tWebセキュリティ\n5.\tAPI連携"
     }
-  ],
-  "About": {
-    "digitalStorytellers": "デジタル・ストーリーテラー",
-    "handcraftingExperiences": "受賞歴のあるデジタル体験を手作りしています",
-    "whoAreWe": "私たちは誰？",
-    "whoAreWeDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus quae dolor, optio voluptatibus magnam iure esse tempora beatae. A suscipit eos. Animi quibusdam cum omnis officiis voluptatum quo ea eveniet? Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus quae dolor, optio voluptatibus magnam iure esse tempora beatae, a suscipit eos. Animi quibusdam cum omnis officiis voluptatum quo ea eveniet? Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus quae dolor, optio voluptatibus magnam iure esse tempora beatae, a suscipit eos. Animi quibusdam cum omnis officiis voluptatum quo ea eveniet?",
-    "whatWeDo": "私たちは何をするの？",
-    "whatWeDoDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus quae dolor, optio voluptatibus magnam iure esse tempora beatae, a suscipit eos. Animi quibusdam cum omnis officiis voluptatum quo ea eveniet? Lorem ipsum dolor sit amet consectetur adipisicing elit. - クリエイティブなイラスト - 動的なウェブサイト - 高速で便利 - モバイルアプリ",
-    "contactButton": "お問い合わせ"
-  },
-  "Contact": {
-    "title": "連絡を取り合う",
-    "name": "名前",
-    "email": "メールアドレス",
-    "github": "Github",
-    "linkedin": "Linkedin",
-    "portfolio": "ポートフォリオ ウェブサイト"
-  },
-  "Login": {
-    "loading": "読み込み中...",
-    "welcomeBack": "お帰りなさい",
-    "signInMessage": "ダッシュボードを見るにはサインインしてください。",
-    "email": "メールアドレス",
-    "password": "パスワード",
-    "login": "ログイン",
-    "or": "- または -",
-    "createNewAccount": "新しいアカウントを作成する"
-  },
-  "Register": {
-    "createAccount": "アカウントを作成する",
-    "signUpMessage": "ダッシュボードを見るにはサインアップしてください。",
-    "username": "ユーザー名",
-    "email": "メールアドレス",
-    "password": "パスワード",
-    "register": "登録",
-    "errorMessage": "何かがうまくいかなかった！",
-    "or": "- または -",
-    "loginExistingAccount": "既存のアカウントでログイン",
-    "accountCreated": "アカウントが作成されました",
-    "accountUsed": "アカウントは使用されています"
-  },
-  "Dashboard": {
-    "visitorMessage": "あなたは訪問者です。このページのコンテンツを編集または削除することはできません。",
-    "loading": "読み込み中...",
-    "addNewPost": "新しい投稿を追加",
-    "title": "タイトル",
-    "description": "説明",
-    "image": "画像",
-    "content": "コンテンツ",
-    "send": "送信"
-  }
-}
+      ],
+      "About": {
+        "digitalStorytellers": "こんにちは、私はZHIWENです",
+        "handcraftingExperiences": "ありのままの自分でいれば、人は必ず好きになってくれる",
+        "whoAreWe": "私について",
+        "whoAreWeDescription": "前職では、ウェブサイトトラッキングシステムを設計・開発し、ユーザー行動データを収集することで、Webプロモーションキャンペーンのコンバージョン率を25％向上させました。また、新しいアクティビティページの立ち上げプロセスを合理化し、コンテンツチームがゲームイベントページを効率的に管理できるツールを作成し、作業負荷を50％削減しました。\nウェブサイトのパフォーマンス最適化、ユーザーエクスペリエンスの向上、革新的なソリューションによる開発効率の改善に長けています。パッケージ分割とサーバーサイドレンダリングの手法を導入することで、Webページの読み込み時間を大幅に短縮し、SEOを改善しました。\n技術スキルに加え、プロジェクトをリードし、機能横断型チームとコラボレーションした経験があります。ステークホルダーとプロアクティブにコミュニケーションを取り、要件を理解し、ビジネス価値を生み出す効果的なソリューションを設計します。",
+        "whatWeDo": "What We Do?",
+        "whatWeDoDescription": "パーソナルプロジェクトは、最新のテクノロジーとフレームワークに対応する能力を示しています。Next.js、Nest.js、Docker、AWSを使用してポートフォリオウェブサイトを開発し、フルスタック開発とクラウドデプロイメントの熟練度を実証しました。\nキャリアを通じて、問題解決能力を磨き、細部にまで目を配る力を養ってきました。効率的で高品質なコードを作成し、技術を通じて組織の成功に貢献する測定可能な結果を出すことに情熱を注いでいます。\n要するに、私は献身的なフルスタック開発者であり、堅牢なWebアプリケーションの開発、パフォーマンスの最適化、技術を通じたビジネス成長の推進において確かな実績を持っています。新しい課題に取り組み、コラボレーティブなチーム環境で自分のスキルを革新的なプロジェクトに活かすことを心待ちにしています。",
+        "contactButton": "お問い合わせ"
+      },
+      "Contact": {
+        "title": "お問い合わせ",
+        "name": "名前",
+        "email": "メールアドレス",
+        "github": "Github",
+        "linkedin": "Linkedin",
+        "portfolio": "ポートフォリオサイト"
+      },
+      "Login": {
+        "loading": "読み込み中...",
+        "welcomeBack": "おかえりなさい",
+        "signInMessage": "ダッシュボードを見るにはサインインしてください。",
+        "email": "メールアドレス",
+        "password": "パスワード",
+        "login": "ログイン",
+        "or": "- または -",
+        "createNewAccount": "新しいアカウントを作成"
+      },
+      "Register": {
+        "createAccount": "アカウント作成",
+        "signUpMessage": "ダッシュボードを見るにはサインアップしてください。",
+
+        "username": "ユーザー名",
+        "email": "メールアドレス",
+        "password": "パスワード",
+        "register": "登録",
+        "errorMessage": "何かがうまくいかなかった！",
+        "or": "- または -",
+        "loginExistingAccount": "既存のアカウントでログイン",
+        "accountCreated": "アカウントが作成されました",
+        "accountUsed": "アカウントは使用されています"
+      },
+      "Dashboard": {
+        "visitorMessage": "あなたは訪問者です。このページのコンテンツを編集または削除することはできません。",
+        "loading": "読み込み中...",
+        "addNewPost": "新しい投稿を追加",
+        "title": "タイトル",
+        "description": "説明",
+        "image": "画像",
+        "content": "コンテンツ",
+        "send": "送信"
+      }
+    }

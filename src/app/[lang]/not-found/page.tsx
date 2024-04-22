@@ -11,11 +11,7 @@ export default function Page() {
           Oops! The page you are looking for could
           not be found.
         </p>
-        <Button
-          className="px-6 py-3 bg-blue-500 hover:bg-blue-600 text-white rounded-md text-lg md:text-xl focus:outline-none focus:ring-2 focus:ring-blue-400"
-          text="Return Home"
-          url="/"
-        />
+        <Button text="Return Home" url="/" />
       </div>
     </div>
   );

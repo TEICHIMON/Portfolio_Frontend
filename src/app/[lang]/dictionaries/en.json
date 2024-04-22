@@ -1,8 +1,8 @@
 {
   "Home": {
     "hello": "Hello, I am ZHIWEN.",
-    "description": "Turning your Idea into Reality. We bring together the teams from the global tech industry.",
-    "button_text": "See Our Works"
+    "description": "I am a Full-stack developer with 2+ years' experience creating interactive, scalable web apps. Skilled in optimizing performance, enhancing UX, and improving efficiency through innovative solutions. Proven track record of increasing conversion rates, streamlining updates, and reducing workload. Seeks to leverage expertise in tackling challenging projects and delivering cutting-edge solutions.",
+    "button_text": "See My Works"
   },
   "Navbar": {
     "title": "ZHIWEN",
@@ -17,82 +17,117 @@
     "menu": "Menu"
   },
   "Footer": {
-    "text": " ©2024 Sudami. All rights reserved."
+    "text": " ©2024 ZHIWEN. All rights reserved."
   },
   "Portfolio": {
-    "title": "Our Works",
+    "title": "My Works",
     "chooseGallery": "Choose a gallery",
-    "illustrations": "Illustrations",
-    "websites": "Websites",
-    "applications": "Application"
+    "illustrations": "Work Experience",
+    "websites": "Projects",
+    "applications": "Skills"
   },
-  "applications": [
-    {
-      "id": 1,
-      "title": "Creative Portfolio",
-      "desc": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur vel tenetur necessitatibus unde natus perspiciatis, amet cupiditate ducimus possimus, eaque ex autem id nobis eum dolorem. Neque eveniet fugiat tenetur?",
-      "image": "https://images.pexels.com/photos/3130810/pexels-photo-3130810.jpeg"
-    },
-    {
-      "id": 2,
-      "title": "Minimal Single Product",
-      "desc": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur vel tenetur necessitatibus unde natus perspiciatis, amet cupiditate ducimus possimus, eaque ex autem id nobis eum dolorem. Neque eveniet fugiat tenetur?",
-      "image": "https://images.pexels.com/photos/2103127/pexels-photo-2103127.jpeg"
-    },
-    {
-      "id": 3,
-      "title": "Strong Together Charity",
-      "desc": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur vel tenetur necessitatibus unde natus perspiciatis, amet cupiditate ducimus possimus, eaque ex autem id nobis eum dolorem. Neque eveniet fugiat tenetur?",
-      "image": "https://images.pexels.com/photos/2916450/pexels-photo-2916450.jpeg"
-    }
-  ],
   "illustrations": [
     {
       "id": 1,
-      "title": "Creative Portfolio",
-      "desc": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur vel tenetur necessitatibus unde natus perspiciatis, amet cupiditate ducimus possimus, eaque ex autem id nobis eum dolorem. Neque eveniet fugiat tenetur?",
-      "image": "https://images.pexels.com/photos/3130810/pexels-photo-3130810.jpeg"
+      "title": "Game Website Optimization (Code Splitting & SSR)",
+      "desc": "●\tOptimized web project file sizes through package splitting, reducing the download size for different devices by 50% and improving web page loading speed by 40%. Further optimized font package sizes by automatically generating a font package containing only necessary fonts during packaging, reducing font package size by 90%. Utilized gzip for compression.\n●\tMigrated the web project from client-side rendering (CSR) to server-side rendering (SSR), improving SEO and increasing the loading speed of initial page content by 50%.\n",
+      "image": "https://images.pexels.com/photos/2916450/pexels-photo-2916450.jpeg"
+
     },
     {
       "id": 2,
-      "title": "Minimal Single Product",
-      "desc": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur vel tenetur necessitatibus unde natus perspiciatis, amet cupiditate ducimus possimus, eaque ex autem id nobis eum dolorem. Neque eveniet fugiat tenetur?",
-      "image": "https://images.pexels.com/photos/2103127/pexels-photo-2103127.jpeg"
+      "title": "Template-driven Campaign Page Generator",
+      "desc": "●\tStreamlined the process of launching new activity pages on the website by implementing a template upload system, improving the efficiency of website activity updates by 80%.\n●\tCreated a tool for the content team to directly edit, preview, and upload game event pages, optimizing the overall process and reducing workload by 50%.\n"
     },
     {
       "id": 3,
-      "title": "Strong Together Charity",
-      "desc": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur vel tenetur necessitatibus unde natus perspiciatis, amet cupiditate ducimus possimus, eaque ex autem id nobis eum dolorem. Neque eveniet fugiat tenetur?",
-      "image": "https://images.pexels.com/photos/2916450/pexels-photo-2916450.jpeg"
+      "title": "Game Website Tracking System",
+      "desc": "●\tDesigned and developed a website tracking system to capture user behavior data. Analyzed user personas and website data to optimize the site, resulting in a 25% increase in conversion rates for web promotional campaigns."
+    },
+    {
+      "id": 4,
+      "title": "Intern, Promotional Web Pages Development",
+      "desc": "●\tDesigned and developed promotional web pages for company products from scratch and deployed them to the server. Achieved 10,000 visits within the final week before launch, contributing to a 10% increase in company sales."
     }
   ],
   "websites": [
     {
       "id": 1,
-      "title": "Creative Portfolio",
-      "desc": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur vel tenetur necessitatibus unde natus perspiciatis, amet cupiditate ducimus possimus, eaque ex autem id nobis eum dolorem. Neque eveniet fugiat tenetur?",
+      "title": "Personal Portfolio Project",
+      "desc": "●\tDeveloped a personal portfolio website using the latest version of Next.js 14 as the front-end framework, applying many new features of Next.js and React, such as React Server Components and Next.js Server Actions, to simplify the development process and optimize development efficiency.\n●\tUtilized Next.js's SSR and SSG capabilities to optimize website loading speed and SEO, improving first screen loading speed and implementing multi-language support for convenient browsing by people from different countries.\n●\tUsed Nest.js as the back-end framework to provide secure authentication services for user registration, login, and other front-end functions. Ensured the security of database connections using Nest.js while validating data with Next.js.\n●\tEmployed Docker and Docker Compose for deployment, avoiding issues caused by different environments between local and server.\n●\tDeployed Docker images to ECR using AWS Cloud and deployed the website application to EC2, leveraging AWS Cloud features to optimize the development experience.\n",
       "image": "https://images.pexels.com/photos/3130810/pexels-photo-3130810.jpeg"
     },
     {
       "id": 2,
-      "title": "Minimal Single Product",
-      "desc": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur vel tenetur necessitatibus unde natus perspiciatis, amet cupiditate ducimus possimus, eaque ex autem id nobis eum dolorem. Neque eveniet fugiat tenetur?",
-      "image": "https://images.pexels.com/photos/2103127/pexels-photo-2103127.jpeg"
+      "title": "Game Website Optimization (Code Splitting & SSR)",
+      "desc": "•\tOptimized the game's official website to improve performance and user experience.\n•\tRestructured component files, separating mobile and PC components into different directories for better code organization and maintainability.\n•\tUtilized Vite's import.meta.glob function to dynamically import components from the mobile and PC directories, enabling on-demand loading of components at runtime.\n•\tDynamically added routes and components in the Vue Router configuration, ensuring that only the required components were loaded for each page.\n•\tSignificantly improved website performance by reducing unnecessary code loading and network transmission, resulting in faster page loading speeds and a better user experience.\n"
     },
     {
       "id": 3,
-      "title": "Strong Together Charity",
-      "desc": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur vel tenetur necessitatibus unde natus perspiciatis, amet cupiditate ducimus possimus, eaque ex autem id nobis eum dolorem. Neque eveniet fugiat tenetur?",
-      "image": "https://images.pexels.com/photos/2916450/pexels-photo-2916450.jpeg"
+      "title": "Template-driven Campaign Page Generator Project",
+      "desc": "•\tDesigned and developed various marketing activity pages for the game's official website based on holidays or in-game events, introducing the activity content, recharge discounts, obtainable game props, etc.\n•\tImplemented a configuration-based solution to allow the operations team to manage the content of activity pages independently without involving the development team every time.\n•\tDeveloped an operations configuration backend using React, providing a user-friendly interface for the operations team to fill in and modify configuration information.\n•\tAutomatically generated configuration files and uploaded them to AWS S3. The official website frontend periodically pulled the latest configuration files from S3 and dynamically rendered activity pages based on the configuration.\n"
+    },
+    {
+      "id": 4,
+      "title": "Website Monitoring Project",
+      "desc": "•\tOptimized the game's official website to improve performance and user experience.\n•\tRestructured component files, separating mobile and PC components into different directories for better code organization and maintainability.\n•\tUtilized Vite's import.meta.glob function to dynamically import components from the mobile and PC directories, enabling on-demand loading of components at runtime.\n•\tDynamically added routes and components in the Vue Router configuration, ensuring that only the required components were loaded for each page.\n•\tSignificantly improved website performance by reducing unnecessary code loading and network transmission, resulting in faster page loading speeds and a better user experience.\n•\tDesigned and developed a comprehensive tracking system for the company's game official website as the project lead, addressing the urgent need for a robust data collection solution to gain insights into player behavior and feedback for optimizing product design and operational strategies.\n•\tProactively communicated with the marketing department to identify core data requirements, including user navigation paths, click-through rates, dwell times, traffic, and conversion rates from various promotional channels.\n•\tEncapsulated a universal track function on the frontend to handle data collection and reporting logic for all tracking points, ensuring high extensibility and flexibility in adding events and properties while accounting for browser compatibility using Blob, sendBeacon API, and Image object fallback.\n•\tDesigned a data model incorporating multiple dimensions such as user ID, session ID, event type, timestamp, and device information to support data analysis needs across marketing, operations, and product teams, with unique fields for insights into new user behavior.\n•\tBuilt a data receiving service on the backend using the Express framework, supplementing environmental information and storing data in the data warehouse through the BigQuery API, while performing data cleaning and normalization to improve data quality.\n•\tEnsured stable operation of the tracking system post-launch, effectively supporting data analysis and operational optimization efforts, enabling marketing to optimize advertising strategies and product managers to identify and implement game experience enhancements.\n•\tStrengthened frontend and backend development skills, gained experience in end-to-end data collection and analysis, and developed a business-oriented perspective on designing technical solutions, leading to growth as a well-rounded engineer.\n"
     }
   ],
+  "applications": [
+    {
+      "id": 1,
+      "title": "Programming Languages:",
+      "desc": "1.\tJavaScript\n2.\tTypeScript\n3.\tHTML\n4.\tCSS\n5.\tJava\n",
+      "image": "https://images.pexels.com/photos/2103127/pexels-photo-2103127.jpeg"
+
+    },
+    {
+      "id": 2,
+      "title": "Front-end Frameworks and Libraries:",
+      "desc": "1.\tNext.js\n2.\tReact\n3.\tVue.js\n"
+    },
+    {
+      "id": 3,
+      "title": "Back-end Frameworks and Libraries:",
+      "desc": "1.\tExpress.js\n2.\tNest.js\n3.\tNode.js\n"
+    },
+    {
+      "id": 4,
+      "title": "Databases:",
+      "desc": "1.\tMySQL\n2.\tMongoDB\n3.\tBigQuery\n"
+    },    {
+      "id": 5,
+      "title": "DevOps and Deployment:",
+      "desc": "1.\tDocker\n2.\tDocker Compose\n3.\tAWS (Amazon Web Services)\n"
+    },    {
+      "id": 6,
+      "title": "Web Development Techniques:",
+      "desc": "1.\tServer-Side Rendering (SSR)\n2.\tStatic Site Generation (SSG)\n3.\tClient-Side Rendering (CSR)\n4.\tPackage Splitting\n5.\tCode Optimization\n6.\tPerformance Optimization\n7.\tSEO Optimization\n8.\tMulti-language Support\n9.\tResponsive Web Design\n"
+    },    {
+      "id": 7,
+      "title": "Project Management and Collaboration:",
+      "desc": "1.\tProject Leadership\n2.\tCross-functional Team Collaboration\n3.\tRequirements Gathering\n4.\tSolution Design\n5.\tAgile Development Methodologies\n"
+    },
+    {
+      "id": 8,
+      "title": "Problem Solving and Analytical Skills:",
+      "desc": "1.\tDebugging\n2.\tTroubleshooting\n3.\tPerformance Analysis\n4.\tCode Optimization\n5.\tAttention to Detail\n"
+    },
+
+    {
+      "id": 9,
+      "title": "Other Skills:",
+      "desc": "1.\tGit\n2.\tUI/UX Design\n3.\tBrowser Compatibility\n4.\tWeb Security\n5.\tAPI Integration\n"
+    }
+
+  ],
   "About": {
-    "digitalStorytellers": "Digital Storytellers",
-    "handcraftingExperiences": "Handcrafting award winning digital experiences",
-    "whoAreWe": "Who Are We?",
-    "whoAreWeDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus quae dolor, optio voluptatibus magnam iure esse tempora beatae. A suscipit eos. Animi quibusdam cum omnis officiis voluptatum quo ea eveniet? Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus quae dolor, optio voluptatibus magnam iure esse tempora beatae, a suscipit eos. Animi quibusdam cum omnis officiis voluptatum quo ea eveniet? Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus quae dolor, optio voluptatibus magnam iure esse tempora beatae, a suscipit eos. Animi quibusdam cum omnis officiis voluptatum quo ea eveniet?",
+    "digitalStorytellers": "Hello, I am ZHIWEN",
+    "handcraftingExperiences": "Be yourself people will like you",
+    "whoAreWe": "Who Am I?",
+    "whoAreWeDescription": "In my previous role at my previous company, I designed and developed a comprehensive website tracking system to capture user behavior data, resulting in a 25% increase in conversion rates for web promotional campaigns. I also streamlined the process of launching new activity pages and created a tool for the content team to manage game event pages efficiently, reducing workload by 50%.\nI am skilled in optimizing website performance, enhancing user experience, and improving development efficiency through innovative solutions. By implementing package splitting and server-side rendering techniques, I significantly reduced web page loading times and improved SEO.\nIn addition to my technical skills, I have experience leading projects and collaborating with cross-functional teams. I proactively communicate with stakeholders to understand their requirements and design effective solutions that drive business value.\n",
     "whatWeDo": "What We Do?",
-    "whatWeDoDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus quae dolor, optio voluptatibus magnam iure esse tempora beatae, a suscipit eos. Animi quibusdam cum omnis officiis voluptatum quo ea eveniet? Lorem ipsum dolor sit amet consectetur adipisicing elit. - Creative Illustrations - Dynamic Websites - Fast and Handy - Mobile Apps",
+    "whatWeDoDescription": "My personal projects showcase my ability to stay up-to-date with the latest technologies and frameworks. I developed a portfolio website using Next.js, Nest.js, Docker, and AWS, demonstrating my proficiency in full-stack development and cloud deployment.\nThroughout my career, I have honed my problem-solving abilities and developed a keen eye for detail. I am passionate about creating efficient, high-quality code and delivering measurable results that contribute to the success of the organization.\nIn summary, I am a dedicated full-stack developer with a strong track record of developing robust web applications, optimizing performance, and driving business growth through technology. I am eager to take on new challenges and contribute my skills to innovative projects in a collaborative team environment.\n",
     "contactButton": "Contact"
   },
   "Contact": {

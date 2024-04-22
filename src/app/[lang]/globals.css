@@ -25,7 +25,7 @@
 
   @layer components {
     .container {
-      @apply max-w-screen-2xl min-h-screen mx-auto px-4 md:px-20 lg:px-36 flex flex-col justify-between;
+      @apply w-full min-h-screen mx-auto px-4 md:px-20 flex flex-col justify-between;
     }
 
 
